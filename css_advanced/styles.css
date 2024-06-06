@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,600&display=swap');
+
+body {
+  margin: 0;
+  background-image: url(assets/background.png);
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  margin-top: 20px;
+  gap: 200px;
+}
+.nav-items {
+  display: flex;
+  gap: 5vw;
+}
+.nav-items a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Source Sans 3';
+}
+.getSchooled {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.greeting {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.greeting-slogan {
+  display: flex;
+  flex-direction: row;
+  gap: 4vw;
+  align-items: center;
+  font-family: 'Source Sans 3';
+  color: white;
+  font-size: 1vw;
+  position: relative;
+  bottom: 5vh;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.greeting h1 {
+  font-family: 'Source Sans 3';
+  color: white;
+  font-size: 100px;
+  margin-bottom: 0;
+}
+
+.register_for_free {
+  border-radius: 22px;
+  border: 0px;
+  background-color: #c271ff;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+  bottom: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.learn {
+  color: #c271ff;
+  font-weight: 1000;
+}
+.learn_from_the_pros {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-family: 'Source Sans 3';
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+.learn_from_the_pros h2 {
+  font-weight: 100;
+  margin-bottom: 5vh;
+}
+
+.the_pros {
+  display: flex;
+  justify-content: space-between;
+  gap: 12vw;
+  margin-bottom: 100px;
+}
+.the_pros div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.the_pros div h3 {
+  padding: 0;
+  margin-bottom: 1.5vh;
+}
+.the_pros div p {
+  font-weight: 500;
+  font-style: italic;
+  padding: 0;
+  margin: 0;
+}
+.quoteSection {
+  background-color: #c271ff;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: 'Source Sans 3';
+  gap: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 0;
+}
+.quote {
+  width: 50%;
+}
+blockquote {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: large;
+}
+.quoteOccupation {
+  margin: 0;
+  font-weight: 300;
+  font-style: italic;
+  font-size: large;
+}
+.personName {
+  margin-bottom: 0;
+  font-size: large;
+  font-weight: 600;
+}
+.tutorials {
+  background-color: white;
+  color: black;
+  font-family: 'Source Sans 3';
+  padding-top: 5px;
+}
+.tutorials h1 {
+  font-weight: 300;
+  text-align: center;
+  padding-top: 20px;
+}
+.tutorials_list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 5vw;
+  justify-content: center;
+}
+#play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.tutorials_list p {
+  font-size: 8px;
+  width: 60%;
+  height: fit-content;
+}
+.tutorials_list h2 {
+  height: fit-content;
+  margin: 0;
+}
+
+.video_image {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  background-size: cover;
+}
+.author {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.author img {
+  width: 30px;
+  height: 30px;
+}
+
+.article_bottom {
+  display: flex;
+  align-items: center;
+  gap: 30%;
+}
+.article_bottom div {
+  width: 100%;
+}
+.article_bottom p {
+  color: #c271ff;
+  font-size: 13px;
+  font-weight: 900;
+}
+.memberships {
+  color: white;
+  padding-top: 10px;
+  background-color: #071629;
+  font-family: 'Source Sans 3';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.memberships h1 {
+  padding-top: 10px;
+  text-align: center;
+  font-weight: 100;
+}
+.membership_list {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.membership_list div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.membership_list div h2 {
+  font-size: 18px;
+}
+.membership_list div p {
+  text-align: center;
+  font-size: 20px;
+  margin: 0;
+  font-weight: 200;
+}
+.memberships button {
+  background-color: #c271ff;
+  color: white;
+  padding: 10px;
+  font-family: 'Source Sans 3';
+  width: 15%;
+  border-radius: 20px;
+  border: 0;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+.faq {
+  background-color: white;
+  font-family: 'Source Sans 3';
+  padding-top: 10px;
+  color: black;
+}
+
+.faq h1 {
+  font-weight: 300;
+  text-align: center;
+  padding-top: 50px;
+  font-size: xx-large;
+}
+.questions {
+  margin: auto;
+  width: 50%;
+  display: flex;
+  gap: 200px;
+  padding-bottom: 50px;
+}
+
+.questions2 div h2,
+.questions1 div h2 {
+  font-size: large;
+}
+
+.questions1 div p,
+.questions2 div p {
+  font-size: small;
+  color: grey;
+}
+footer {
+  background-color: #071629;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.footer_content {
+  display: flex;
+  justify-content: space-between;
+  gap: 50rem;
+}
+.social_media img{
+  padding-left:20px;
+}
+footer p {
+    font-weight: 100;
+    font-size: 12px;
+  text-align: center;
+  color: white;
+  font-family: 'Source Sans 3';
+}
